@@ -54,6 +54,7 @@ void parse_file(stack_t **stack)
  * @stack: Pointer to the top of the stack.
  * @line: The line number in the input file.
  * @file: Pointer to the input file.
+ * Return: parse_op function
  */
 int execute(char *content, stack_t **stack, unsigned int line, FILE *file)
 {

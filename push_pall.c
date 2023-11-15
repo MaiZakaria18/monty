@@ -9,7 +9,7 @@
 int is_numeric(const char *str, int *value)
 {
 	char *endptr;
-        *value = strtol(str, &endptr, 10);
+	*value = strtol(str, &endptr, 10);
 	if (str == NULL || *str == '\0')
 	{
 		return (0);
